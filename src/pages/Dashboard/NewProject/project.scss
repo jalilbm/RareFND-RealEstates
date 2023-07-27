@@ -1,0 +1,40 @@
+.dashboard-projects {
+	display: flex;
+	background-color: white;
+	.dashboard-projects-container {
+		flex: 8;
+	}
+
+	.dashboard-projects-container {
+		width: 10%;
+	}
+}
+
+input {
+	height: 38px;
+	border: 0.5px solid lightgrey;
+	padding: 0.5em 0.5em 0.5em;
+	&:focus {
+		border-color: #cd77d3;
+		outline: #cd77d3;
+	}
+	&::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: lightgrey;
+		opacity: 1; /* Firefox */
+	}
+}
+
+textarea {
+	border: 0.5px solid lightgrey;
+	padding: 0.5em 0.5em 0.5em;
+	&::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: lightgrey;
+		opacity: 1; /* Firefox */
+	}
+	&:focus {
+		border-color: #cd77d3;
+		outline: #cd77d3;
+	}
+}
